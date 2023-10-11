@@ -97,6 +97,7 @@ h1 {
   display: inline-flex;
   width: 60px;
   height: auto;
+  padding: 0px 0px 0px 0px;
 }
 .author{
   display: inline-flex;
@@ -105,10 +106,6 @@ font-size: 12px;
 /* padding-right: 10px; */
 /* padding: 0px 20px 0px 20px; */
 margin-left: 15px;
-}
-.author img{
-  padding: 0px 0px 0px 0px;
-
 }
 .author text{
   padding: 0px 15px 0px 15px;
@@ -140,157 +137,7 @@ body {
   text-align: justify;
   margin: auto;
   width: 507px;
-   padding: 5px 30px 50px 30px;
-/* top: 5px margin*/
-/* right: 0px margin*/
-/* bottom: 50px margin*/
-/* left: 30px margin*/
-background-image: url(https://res.cloudinary.com/datkpbtgd/image/upload/v1696222287/Flood/paper_lnu9bn.avif);
-background-repeat: repeat;
-}
-@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-  box-sizing: border-box;
-}
-.navigation {
-  width: 100%;
-  /* border-bottom: 5px solid #ccc; */
-  background: #fff;
-  height: 0px;
-}
-.navigation-inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 900px;
-  /* background:; */
-  height: 30px;
-  margin: 0 auto;
-  overflow: hidden;
-  font-family: 'Croissant One', cursive;
-}
-.navigation-link {
-  display: flex;
-  padding: 0 20px;
-  font-size: 13px;
-  line-height: 30px;
-  text-decoration: none;
-  color: #000;
-  cursor: pointer;
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 500;
-}
-.navigation-link:hover {
-  background: #e5e5e5;
-  color: #808080;
-  text-decoration: none;
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 500;
-}
-.navigation-logo {
-  flex-shrink: 0;
-  align-self: flex-start;
-  border-left: 5px solid #ccc;
-  border-right: 5px solid #ccc;
-}
-.navigation-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-top: 0;
-  border-right: 5;
-}
-@media screen and (max-width: 400px) {
-  .navigation-item {
-    flex-basis: 100%;
-  }
-}
-/* .line {
-  border-bottom: 1px solid #888;
-  height: 120px;
-} */
-hr.class-2 {
-  border-top: 5px double;
-}
-h1 {
-  font-family: Garamond, serif;
-  font-size: 55px;
-  color: #21312f;
-  line-height: 1.1;
-   text-align: left;
-}
-.photos{
-  display: flex;
-  justify-content: space-around;
-}
-.caption1 {
-  line-height: 1.1;
-  font-size: 15px;
-}
-.caption {
-  line-height: 1.1;
-  padding: 0px 0px 0px 10px;
-  font-size: 13px;
-  text-align: left;
-}
-.italics {
-  font-family: 'Fira Sans', sans-serif;
-  font-size:19px;
-  line-height:1.4;
-}
-.author img{
-  display: inline-flex;
-  width: 60px;
-  height: auto;
-}
-.author{
-  display: inline-flex;
- justify-content: space-around;
-font-size: 12px;
-/* padding-right: 10px; */
-/* padding: 0px 20px 0px 20px; */
-margin-left: 15px;
-}
-.author img{
-  padding: 0px 0px 0px 0px;
-
-}
-.author text{
-  padding: 0px 15px 0px 15px;
-}
-.time{
-  padding: 0px 15px 0px 15px;
-}
-small{
-  color: #af9d66;
-}
-a {
-  color: #646751;
-}
-@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-box-sizing: border-box;
-}
-body {
-margin: 0;
-background: #e6e6e6;
-}
-body {
-  background: #f9f6ef;
-  color: #6f725a;
-  font-family: 'Mukta Vaani', sans-serif;  font-size: 20px;
-  text-align: left; 
-  line-height: 1.3;
-  text-align: justify;
-  margin: auto;
-  width: 507px;
-   padding: 5px 30px 50px 30px;
+  padding: 5px 30px 50px 30px;
 /* top: 5px margin*/
 /* right: 0px margin*/
 /* bottom: 50px margin*/
